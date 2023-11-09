@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 7
+   Coding Challenge 3
+   Author: Saurabh Chawla
+   Date: 6 November 2023 
+   
+   Filename: code7-3_valid.css
+
+*/
+
+/* Style for input or select element with focus */
+input:focus, select:focus {
+   background-color: yellow;
+ }
+ 
+ /* Style for input element with invalid data */
+ input:invalid {
+   color: red;
+   border: 1px solid red;
+   box-shadow: 0 0 5px red;
+ }
+ 
